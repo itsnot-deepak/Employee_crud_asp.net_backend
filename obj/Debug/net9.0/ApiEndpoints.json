@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "Employee_Main.Controllers.EmployeeController",
+    "Method": "DeleteClientById",
+    "RelativePath": "api/Employee/{ClientId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ClientId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Employee_Main.Controllers.EmployeeController",
+    "Method": "GetAllClients",
+    "RelativePath": "api/Employee/Clients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Main.Controllers.EmployeeController",
+    "Method": "AddClient",
+    "RelativePath": "api/Employee/Clients",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clinetdto",
+        "Type": "Employee_Main.Models.PostClientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Main.Controllers.EmployeeController",
+    "Method": "GetAllDepartment",
+    "RelativePath": "api/Employee/Departments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Main.Controllers.EmployeeController",
+    "Method": "GetAllRoles",
+    "RelativePath": "api/Employee/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
