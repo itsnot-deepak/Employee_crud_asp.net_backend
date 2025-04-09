@@ -20,6 +20,9 @@ namespace Employee_Main.Data
             base.OnModelCreating(modelBuilder);
 
 
+            // this defines all the relationships that are there in the database among different tables , realtionships are between 2 tables so u can
+            // write this with any table which u want 
+
 
             modelBuilder.Entity<employee>()
                 .HasOne(e => e.Role)
